@@ -1,9 +1,12 @@
 import io
 from random import randint, random
+
 global words
-rand=0
 global ques
-global l        
+global l 
+
+rand = 0
+
 def read_file(rand):
     obj= io.open("countries.txt" , "r", encoding= 'utf-8')
     words = obj.read().splitlines()
